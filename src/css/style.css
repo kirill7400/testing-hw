@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.card-validator {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-form {
+  width: 600px;
+  height: 500px;
+  border: 3px solid gainsboro;
+  border-radius: 10px;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  flex-direction: column;
+}
+
+.label-form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Comic Sans MS", arial, sans-serif;
+}
+
+.input-form {
+  margin-top: 10px;
+  height: 23px;
+  width: 300px;
+  border: 1px solid #dad7d7;
+  border-radius: 5px;
+}
+
+.input-form:hover {
+  border: 1px solid gray;
+}
+
+.input-form:focus {
+  border: 1px solid gray;
+}
+
+.input-form:focus-visible {
+  outline: none;
+}
+
+.btn-form {
+  margin-top: 10px;
+  color: white;
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 5px;
+  height: 23px;
+  width: 170px;
+}
+
+.btn-form:hover {
+  background-color: #066406;
+  border: 1px solid #066406;
+}
+
+.cards {
+  display: flex;
+  margin-top: 30px;
+}
+
+.card {
+  width: 50px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.visa-card {
+  background-image: url("./assets/visa-svgrepo-com.svg?inline");
+}
+.amex-card {
+  background-image: url("./assets/amex-svgrepo-com.svg?inline");
+}
+.mc-card {
+  background-image: url("./assets/mastercard-svgrepo-com.svg?inline");
+}
+.up-card {
+  background-image: url("./assets/unionpay-svgrepo-com.svg?inline");
+}
+.mir-card {
+  background-image: url("./assets/mir-svgrepo-com.svg?inline");
+}
+
+.valid-card {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
